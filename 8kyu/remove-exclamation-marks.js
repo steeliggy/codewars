@@ -4,6 +4,6 @@
 
 //SOLUTION
 function removeExclamationMarks(s) {
-    let newStr = s.replace("!", "");
+    let newStr = s.replace(/!/g, "");
     return newStr;
 }
